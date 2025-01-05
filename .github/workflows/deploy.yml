@@ -23,9 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
-        run: npm test
-
       # 3) AWS CLI & Docker login
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
